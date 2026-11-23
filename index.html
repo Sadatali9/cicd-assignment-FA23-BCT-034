@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CI/CD Assignment - Sadat Ali</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 640px; margin: 40px auto; color: #222; }
+    h1 { color: #1a3d6d; }
+    input { padding: 6px; width: 260px; }
+    button { padding: 6px 14px; margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <h1 id="title">Automated CI/CD Pipeline for a Web Application</h1>
+  <p id="name">Name: Sadat Ali</p>
+  <p id="roll">Roll Number: FA23-BCT-034</p>
+
+  <button id="show-msg" onclick="document.getElementById('msg').textContent='Welcome! This page was deployed by Jenkins.'">Show message</button>
+  <p id="msg"></p>
+
+  <label for="user-text">Enter some text:</label>
+  <input type="text" id="user-text" placeholder="Type here">
+  <button id="submit-btn" onclick="document.getElementById('output').textContent='You entered: ' + document.getElementById('user-text').value">Submit</button>
+  <p id="output"></p>
+</body>
+</html>
